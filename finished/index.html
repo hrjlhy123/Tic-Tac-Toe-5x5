@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Tic-Tac-Toe (5x5)</h1>
+      <span>
+        <input type="radio" name="gameMode" value="1" checked />1P
+        <input type="radio" name="gameMode" value="2" />2P
+      </span>
+    </div>
+    <!-- <svg width="100" height="100">
+      <use href="./output_fonts/CascadiaCodeNF_symbol.svg#glyph-at"></use>
+    </svg> -->
+
+    <div id="game">
+      <canvas id="canvas" width="400" height="400"></canvas>
+      <div id="win">
+        <div class="1"></div>
+        <div class="2"></div>
+        <div class="3"></div>
+        <div class="4"></div>
+        <div class="5"></div>
+        <div class="6"></div>
+        <div class="7"></div>
+        <div class="8"></div>
+        <div class="9"></div>
+        <div class="10"></div>
+        <div class="11"></div>
+        <div class="12"></div>
+        <div class="13"></div>
+        <div class="14"></div>
+        <div class="15"></div>
+        <div class="16"></div>
+        <div class="17"></div>
+        <div class="18"></div>
+        <div class="19"></div>
+        <div class="20"></div>
+        <div class="21"></div>
+        <div class="22"></div>
+        <div class="23"></div>
+        <div class="24"></div>
+        <div class="25"></div>
+      </div>
+    </div>
+
+    <br />
+    <button id="toggle0">重置游戏 0</button>
+    <button id="toggle1">切换O/X 1</button>
+    <button id="toggle2">切换O/X 2</button>
+    <button id="toggle3">切换O/X 3</button>
+    <button id="toggle4">切换O/X 4</button>
+    <button id="toggle5">切换O/X 5</button>
+    <button id="toggle6">切换O/X 6</button>
+    <button id="toggle7">切换O/X 7</button>
+    <button id="toggle8">切换O/X 8</button>
+    <button id="toggle9">切换O/X 9</button>
+    <button id="toggle10">切换O/X 10</button>
+    <button id="toggle11">切换O/X 11</button>
+    <button id="toggle12">切换O/X 12</button>
+    <button id="toggle13">切换O/X 13</button>
+    <button id="toggle14">切换O/X 14</button>
+    <button id="toggle15">切换O/X 15</button>
+    <button id="toggle16">切换O/X 16</button>
+    <button id="toggle17">切换O/X 17</button>
+    <button id="toggle18">切换O/X 18</button>
+    <button id="toggle19">切换O/X 19</button>
+    <button id="toggle20">切换O/X 20</button>
+    <button id="toggle21">切换O/X 21</button>
+    <button id="toggle22">切换O/X 22</button>
+    <button id="toggle23">切换O/X 23</button>
+    <button id="toggle24">切换O/X 24</button>
+    <button id="toggle25">切换O/X 25</button>
+
+    <!-- Execute the script code -->
+    <script src="index.js"></script>
+  </body>
+</html>
